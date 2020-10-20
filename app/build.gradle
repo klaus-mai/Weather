@@ -53,6 +53,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
     //搜索功能
     implementation 'com.amap.api:search:latest.integration'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.preference:preference:1.1.1'
     debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
     kapt "com.android.databinding:compiler:4.0.0"
     kapt "androidx.room:room-compiler:2.2.5"

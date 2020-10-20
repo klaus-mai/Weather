@@ -40,9 +40,9 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
     </fragment>
-    <fragmentapp
+    <fragment
         android:id="@+id/choosePlaceFragment"
-        android:name="com.wjx.android.weather.module.chooseplace.view.ChoosePlaceFragment"
+        android:name="com.example.weather.module.chooseplace.view.ChoosePlaceFragment"
         android:label="choose_place_fragment"
         tools:layout="@layout/choose_place_fragment">
         <action
@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchPlaceFragment"
-        android:name="com.wjx.android.weather.module.searchplace.view.SearchPlaceFragment"
+        android:name="com.example.weather.module.searchplace.view."
         android:label="search_place_fragment"
         tools:layout="@layout/search_place_fragment">
         <action
