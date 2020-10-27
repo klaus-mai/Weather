@@ -16,6 +16,9 @@ open class BaseApplication : Application(),ViewModelStoreOwner{
         return mAppViewModelStore
     }
 
+    companion object{
+        lateinit var instance : BaseApplication
+    }
 
 
 
