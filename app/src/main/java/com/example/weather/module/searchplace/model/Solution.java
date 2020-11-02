@@ -33,7 +33,29 @@ public class Solution {
     public String reverseWords(String s) {
         if (s.length()==0) return "";
         StringBuffer str=new StringBuffer();
+        String[] strs=s.split(" ");
+        for (int i = 0; i < strs.length; i++) {
+            str.append(strs.length-i-1);
+        }
         return str.toString();
     }
 
+    public ListNode reverse(ListNode head){
+        ListNode pre=null;
+        ListNode cur=head;
+        while (cur!=null) {
+            ListNode node=cur.next;
+            cur.next=pre;
+            pre=cur;
+            cur=node;
+        }
+        return pre;
+    }
+}
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode(int x){
+        val=x;
+    }
 }

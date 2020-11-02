@@ -22,7 +22,7 @@ class HomeFragment : BaseLifeCycleFragment<HomeViewModel,HomeFragmentBinding>() 
 
     override fun initView() {
         super.initView()
-        initData()
+        initToolbar()
     }
 
     override fun onCreateOptionsMenu(menu:Menu,inflater:MenuInflater){
@@ -42,14 +42,14 @@ class HomeFragment : BaseLifeCycleFragment<HomeViewModel,HomeFragmentBinding>() 
         }
         return super.onOptionsItemSelected(item)
     }
-    override fun initToolbar() {
+    private fun initToolbar() {
         home_bar.title=""
         (requireActivity() as AppCompatActivity).setSupportActionBar(home_bar)
     }
 
     override fun initData() {
         super.initData()
-        mViewModel.
+
     }
     override fun initDataObserver(){
         super.initDataObserver()

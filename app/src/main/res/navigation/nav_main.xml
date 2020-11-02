@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.wjx.android.weather.module.about.AboutFragment"
+        android:name="com.example.weather.module.about.AboutFragment"
         android:label="about_fragment"
         tools:layout="@layout/about_fragment">
         <action
@@ -98,7 +98,7 @@
     </fragment>
     <fragment
         android:id="@+id/webFragment"
-        android:name="com.wjx.android.weather.module.web.WebFragment"
+        android:name="com.example.weather.module.web.WebFragment"
         android:label="web_fragment"
         tools:layout="@layout/web_fragment">
         <action
